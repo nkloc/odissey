@@ -27,10 +27,11 @@ header
     display flex
     align-items center
     height 80px
-    font-family $font-title
+    font-family $font
     background white
     justify-content space-between
-    padding 0 50px
+    padding 0 80px
+    border-bottom 1px solid #E5E9F2
     div
         display flex
         align-items center

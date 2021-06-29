@@ -23,7 +23,7 @@ export default {
 @import 'css/main'
 
 #app
-  font-family $font-content
+  font-family $font
   font-size 16px
   line-height 24px
   -webkit-font-smoothing antialiased
