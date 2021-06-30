@@ -32,6 +32,8 @@ header
     justify-content space-between
     padding 0 80px
     border-bottom 1px solid #E5E9F2
+    @media mobile
+        padding 0 30px
     div
         display flex
         align-items center

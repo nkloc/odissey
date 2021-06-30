@@ -5,7 +5,7 @@
       <h1>Sécuriser votre business</h1>
       <h2>Odissey est un partenaire de groupe spécialisée dans la surveillance humaine basée en Île-De-France, dont l'ambition est d'offrir à ses clients un panel d'agents qualifiés qui vous protègeront des incendies, des agressions, des risques terroristes... </h2>
       <button>
-        Découvrez nos agents
+        Découvrir nos agents
       </button>
     </div>
     <div class="container-img">
@@ -57,4 +57,7 @@ section
   padding 30px 80px
   background white
   color $black-color
+  @media mobile
+    padding 30px 30px
+    min-height 0px
 </style>

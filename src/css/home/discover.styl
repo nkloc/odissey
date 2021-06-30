@@ -3,11 +3,23 @@
   justify-content space-between
 .discover-text
   max-width 50%
+  padding-right 5%
+  @media tablet
+    max-width 100%
+    padding-left 5%
+    text-align center
+  @media mobile
+    padding-left 0 
+    padding-right 0
+    padding 0 10px
   h1
     font-family $font
     font-size 72px
     line-height 98px
     font-weight 800
+    @media tablet
+      font-size 50px
+      line-height 70px
   h2
     margin 32px 0
     font-size 18px
@@ -24,12 +36,15 @@
     font-weight 500
     cursor pointer
 .container-img
-  width 70vh
-  height 70vh
+  min-width 640px
+  width 640px
+  height 640px
   border-radius 50%
   background #D6B1FF
   overflow hidden
   position relative
+  @media tablet
+    display none
   img
     position absolute
     top 0
