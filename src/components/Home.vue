@@ -22,7 +22,7 @@
     </section>
     <section class="agents" id="agents">
       <div class="agents-text">
-        <h2>Nos différents profils d'agents</h2>
+        <h2>Nos profils d'agents</h2>
       </div>
       <div class="agents-profiles-container">
         <article class="agents-profiles">
