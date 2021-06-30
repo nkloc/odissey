@@ -57,33 +57,4 @@ section
   padding 30px 80px
   background white
   color $black-color
-
-.agents
-  flex-direction column
-  h2
-    font-size 35px
-    margin 5vh 0
-  .agents-profiles-container
-    display flex
-    align-items center
-    justify-content flex-start
-    flex-wrap wrap
-    article
-      width 25%
-      background $blue-color
-      color white
-      padding 30px
-      margin-right 30px
-      border-radius 16px
-      margin-bottom 30px
-      h3
-        font-size 24px
-        line-height 32px
-        margin-top 10px
-        margin-bottom 20px
-      p
-        font-size 16px
-        line-height 26px
-        margin-bottom 10px
-
 </style>
