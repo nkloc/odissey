@@ -29,4 +29,5 @@ export default {
   color $black-color
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
+  scroll-behavior smooth
 </style>

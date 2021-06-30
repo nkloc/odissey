@@ -4,9 +4,11 @@
     <div class="discover-text">
       <h1>Sécuriser votre business</h1>
       <h2>Odissey est un partenaire de groupe spécialisée dans la surveillance humaine basée en Île-De-France, dont l'ambition est d'offrir à ses clients un panel d'agents qualifiés qui vous protègeront des incendies, des agressions, des risques terroristes... </h2>
-      <button>
-        Découvrir nos agents
-      </button>
+      <a href="#agents">
+        <button>
+          Découvrir nos agents
+        </button>
+      </a>
     </div>
     <div class="container-img">
       <img
@@ -15,7 +17,7 @@
       />
     </div>
   </section>
-  <section class="agents">
+  <section class="agents" id="agents">
     <div class="agents-text">
       <h2>Nos différents profils d'agents</h2>
     </div>
@@ -57,6 +59,8 @@ section
   padding 30px 80px
   background white
   color $black-color
+  @media tablet
+    padding 30px 50px
   @media mobile
     padding 30px 30px
     min-height 0px

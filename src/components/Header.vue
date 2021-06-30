@@ -7,7 +7,7 @@
         <div>
             <i @click.prevent="showMenu()" v-if="windowWidth < 749 && !burgerMenuActive" class="fas fa-bars burger"></i>
             <i @click.prevent="showMenu()" v-if="windowWidth < 749 && burgerMenuActive" class="fas fa-times burger"></i>
-            <div v-if="windowWidth > 748 || burgerMenuActive" class="menu-mobile">
+            <div v-if="windowWidth > 748" class="menu-mobile">
                 <ul> 
                     <li> <a href="">Accueil</a></li>
                     <li> <a href="">Nos services</a></li>
@@ -15,7 +15,14 @@
                     <li> <a href="">Nous rejoindre</a></li>
                 </ul>
             </div>
-
+            <div v-if="burgerMenuActive" class="menu-mobile-fixed">
+                <ul> 
+                    <li> <a href="">Accueil</a></li>
+                    <li> <a href="">Nos services</a></li>
+                    <li> <a href="">Nous contacter</a></li>
+                    <li> <a href="">Nous rejoindre</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 </template>
@@ -32,8 +39,13 @@ header
     justify-content space-between
     padding 0 80px
     border-bottom 1px solid #E5E9F2
+    @media tablet 
+        padding 0 50px
     @media mobile
-        padding 0 30px
+        padding 0
+        position fixed
+        width 100%
+        padding 0
     div
         display flex
         align-items center
@@ -42,14 +54,19 @@ h1
     font-size 32px
     font-weight black
     text-align center
+    @media mobile
+        display none
     span 
         position absolute
         font-size 12px
         font-weight regular
-        color $nightblue-color
+        color $black-color
 img 
     height 50px
     margin-right 15px
+    @media mobile 
+        position relative
+        left 30px
 
 ul
     list-style-type none
@@ -62,8 +79,12 @@ ul
         width 100%
 
 .menu-mobile
+    @media mobile
+        display none 
+
+.menu-mobile-fixed
     @media mobile 
-        position absolute 
+        position fixed 
         left 0
         top 80px
         width 100%
@@ -95,6 +116,9 @@ a
 
 .burger
     font-size 20px
+    @media mobile 
+        position relative
+        right 30px
 </style>
 
 <script>
