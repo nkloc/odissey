@@ -26,6 +26,7 @@ export default {
   font-family $font
   font-size 16px
   line-height 24px
+  color $black-color
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
 </style>

@@ -9,10 +9,10 @@
             <i @click.prevent="showMenu()" v-if="windowWidth < 749 && burgerMenuActive" class="fas fa-times burger"></i>
             <div v-if="windowWidth > 748 || burgerMenuActive" class="menu-mobile">
                 <ul> 
-                    <li> <a href=""> Accueil</a></li>
-                    <li> <a href=""> Nos services</a></li>
-                    <li> <a href=""> Nous contacter</a></li>
-                    <li> <a href=""> Nous rejoindre</a></li>
+                    <li> <a href="">Accueil</a></li>
+                    <li> <a href="">Nos services</a></li>
+                    <li> <a href="">Nous contacter</a></li>
+                    <li> <a href="">Nous rejoindre</a></li>
                 </ul>
             </div>
 
@@ -71,13 +71,13 @@ ul
 
 li
     display inline-block
-    margin 0 10px
+    margin 0 15px
     @media mobile 
         margin 20px 0
 
 
 a
-    color $nightblue-color
+    color $black-color
     text-decoration none 
     font-weight 500
     font-size 14px
