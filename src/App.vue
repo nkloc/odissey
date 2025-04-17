@@ -1,10 +1,12 @@
 <script setup>
 import LandingPage from './pages/LandingPage.vue'
+import logo from '@/assets/logo.png'
+import logoTigre from '@/assets/logo-tigre.svg'
 </script>
 
 <template>
   <header>
-    <img class="logo" alt="Odissey logo" src="./assets/logo.png"/>
+    <img class="logo" alt="Odissey logo" :src="logo" />
   </header>
 
   <main>
@@ -12,7 +14,7 @@ import LandingPage from './pages/LandingPage.vue'
   </main>
 
   <footer>
-    <img class="logo" alt="Odissey logo version tigre" src="./assets/logo-tigre.svg"/>
+    <img class="logo" alt="Odissey logo version tigre" :src="logoTigre" />
     <div>
       <p><b>Odissey Sécurité Privée</b></p>
       <p><a href="tel:0674554933">06 74 55 49 33</a></p>
