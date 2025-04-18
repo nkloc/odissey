@@ -1,7 +1,7 @@
 <script setup>
 import LandingPage from './pages/LandingPage.vue'
-import logo from '@/assets/logo.png'
-import logoTigre from '@/assets/logo-tigre.svg'
+import logo from './assets/logo.png'
+import logoTigre from './assets/logo-tigre.svg'
 </script>
 
 <template>
