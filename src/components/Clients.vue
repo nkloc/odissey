@@ -5,18 +5,13 @@
 <template>
     <section>
         <h2>
-            Ils nous font confiance. <br>
+            Ils nous ont fait confiance. <br>
             Pourquoi pas vous ?
         </h2>
         <div class="clients">
             <img class="client" alt="Auchan, Client d'odissey" src="../assets/clients/auchan.svg"/>
             <img class="client" alt="Paris Aéroport, Client d'Odissey" src="../assets/clients/roissy.svg"/>
-            <img class="client" alt="Paris Aéroport, Client d'Odissey" src="../assets/clients/roissy.svg"/>
-            <img class="client" alt="Paris Aéroport, Client d'Odissey" src="../assets/clients/roissy.svg"/>
-            <img class="client" alt="Paris Aéroport, Client d'Odissey" src="../assets/clients/roissy.svg"/>
-            <img class="client" alt="Paris Aéroport, Client d'Odissey" src="../assets/clients/roissy.svg"/>
-            <img class="client" alt="Paris Aéroport, Client d'Odissey" src="../assets/clients/roissy.svg"/>
-
+            <img class="client" alt="Carrefour Market, Client d'Odissey" src="../assets/clients/carrefour.svg"/>
         </div>
     </section>
 </template>
